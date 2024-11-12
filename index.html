@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="icon" href="imagenes/Logo_Org_Emp_Amazon_final.ico" type="image/png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Organizacion Empresarial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="http://127.0.0.1:5500/index.html#programas">
+        <img src="imagenes/Logo_Org_Emp_Amazon_final.png" alt="Logo de la compañía" />
+      </a>
+    </div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="#tutorias-section" onclick="document.getElementById('menu-toggle').checked = false;">Historia</a>
+        </li>
+        <li>
+          <a href="#recursos-section" onclick="document.getElementById('menu-toggle').checked = false;">Servicios</a>
+        </li>
+        <li>
+          <a href="#programas-section" onclick="document.getElementById('menu-toggle').checked = false;">Analisis FODA</a>
+        </li>
+        <li>
+          <a href="#footer" onclick="document.getElementById('menu-toggle').checked = false;">Bibliografia</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Historia de Amazon -->
+  <section id="tutorias-section">
+    <h2>Historia de Amazon</h2>
+    <p>
+      Amazon nació en 1994 en el garaje de Jeff Bezos como una librería online
+      llamada Cadabra. Más tarde, Bezos cambió el nombre a Amazon, inspirado
+      por el Río Amazonas. La empresa se ha convertido en un gigante
+      tecnológico multifacético, actuando como intermediario entre vendedores
+      y compradores, ofreciendo servicios de logística, streaming, servicios
+      en la nube y desarrollo de dispositivos inteligentes como Alexa.
+    </p>
+    <img src="imagenes/Jeff_Bezos_Garaje_final.png" alt="Imagen de tutoria con logo" class="tutorias-imagen" />
+    <img src="imagenes/Cadabra_final.png" alt="Imagen de tutoria con logo" class="tutorias-imagen" />
+    <img src="imagenes/Amazon_actualidad_final.png" alt="Imagen de tutoria con logo" class="tutorias-imagen" />
+  </section>
+
+  <!-- SERVICIOS DE AMAZON -->
+  <section id="recursos-section">
+    <h2>Servicios de Amazon</h2>
+    <p>
+      Amazon ofrece una variedad de servicios que van desde su plataforma de
+      comercio electrónico hasta Amazon Web Services (AWS), uno de los mayores
+      proveedores de servicios en la nube. También incursionó en el
+      entretenimiento con Prime Video, Twitch y Audible, entre otros,
+      consolidándose como un gigante tecnológico multifacético.
+    </p>
+
+    <div class="container">
+      <div class="card">
+        <figure>
+          <img src="imagenes/Servicios_AWS_final.png" />
+        </figure>
+        <div class="contenido">
+          <h3>Amazon Web Services</h3>
+          <p>
+            AWS es uno de los mayores proveedores de servicios en la nube del
+            mundo. Ofrece más de 200 servicios, incluyendo computación,
+            almacenamiento y análisis de datos, utilizados por empresas
+            globalmente para mejorar sus capacidades tecnológicas.
+          </p>
+          <a href="https://aws.amazon.com" target="_blank">Ingresar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <figure>
+          <img src="imagenes/Servicios_Prime_Video_final.jpg" />
+        </figure>
+        <div class="contenido">
+          <h3>Prime Video y Amazon Entertainment</h3>
+          <p>
+            Amazon Prime Video es una plataforma de streaming que ofrece
+            películas, series y contenido original de alta calidad. Amazon
+            también produce su propio contenido y ha expandido su alcance en
+            el entretenimiento con servicios como Audible y Amazon Music.
+          </p>
+          <a href="https://www.primevideo.com" target="_blank">Ingresar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <figure>
+          <img src="imagenes/Servicios_Twitch_final.jpg" />
+        </figure>
+        <div class="contenido">
+          <h3>Twitch y Gaming</h3>
+          <p>
+            Amazon adquirió Twitch, una plataforma de streaming enfocada en
+            videojuegos, y ha impulsado su presencia en la industria del
+            gaming. Twitch permite a los usuarios transmitir y ver contenido
+            en vivo, convirtiéndose en un pilar del entretenimiento en línea.
+          </p>
+          <a href="https://www.twitch.tv" target="_blank">Ingresar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANALISIS FODA -->
+  <section id="programas-section">
+    <h2> Análisis FODA</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <div class="face front">
+          <img src="imagenes/Foda_Fortalezas_final.jpg" alt="" />
+          <h3>Fortalezas 💪🏼</h3>
+        </div>
+        <div class="face back">
+          <h3>Fortalezas 💪🏼</h3>
+          <p>
+            "Amazon cuenta con una infraestructura logística y tecnológica avanzada, una marca globalmente reconocida y
+            una capacidad de innovación constante."
+          </p>
+          <div class="link">
+            <a href="#">↩</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="face front">
+          <img src="imagenes/Foda_Debilidades_final.jpg" alt="" />
+          <h3>Debilidades 👎🏼</h3>
+        </div>
+        <div class="face back">
+          <h3>Debilidades 👎🏼</h3>
+          <p>
+            "Amazon enfrenta críticas por condiciones laborales en sus centros de distribución y su dependencia de la
+            logística."
+          </p>
+          <div class="link">
+            <a href="#">↩</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="face front">
+          <img src="imagenes/Foda_Oportunidades_final.jpg" alt="" />
+          <h3>Oportunidades 💡</h3>
+        </div>
+        <div class="face back">
+          <h3>Oportunidades 💡</h3>
+          <p>
+            "La expansión en mercados emergentes y el desarrollo de nuevas tecnologías como la inteligencia artificial
+            ofrecen grandes oportunidades."
+          </p>
+          <div class="link">
+            <a href="#">↩</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="face front">
+        <img src="imagenes/Foda_Amenazas_final.png" alt="" />
+        <h3>Amenazas 💣</h3>
+      </div>
+      <div class="face back">
+        <h3>Amenazas 💣</h3>
+        <p>
+          "Amazon enfrenta una feroz competencia y presión regulatoria, especialmente en temas antimonopolio."
+        </p>
+        <div class="link">
+          <a href="#">↩</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <h2>“Con esta técnica logramos identificar las fortalezas, oportunidades, debilidades y amenazas.”</h2>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="footer-content">
+      <div class="section">
+        <h2>Integrantes</h2>
+        <p><a href="https://example.com/ui-design">Albani Luciano</a></p>
+        <p><a href="https://example.com/ux-design">Cutura Rocio</a></p>
+        <p><a href="https://example.com/wireframing">Hamade Luciana</a></p>
+        <p><a href="https://example.com/diagramming">Indabera Facundo</a></p>
+        <p>
+      </div>
+      <div class="section">
+        <h2>Bibliografía</h2>
+        <p><a href="https://www.aboutamazon.mx/noticias/noticias-de-la-compania/por-que-amazon-tiene-este-nombre-descubre-5-curiosidades-sobre-este-tema">5 curiosidades del nombre Amazon</a></p>
+        <p>
+          <a href="https://www.aboutamazon.com/what-we-do">Que hacemos nosotros</a>
+        </p>
+        <p><a href="https://aws.amazon.com/es/executive-insights/content/the-imperatives-of-customer-centric-innovation/#:~:text=La%20misi%C3%B3n%20de%20Amazon%20es,cliente%20y%20trabajan%20hacia%20atr%C3%A1s%E2%80%9D.">Enfoque Innovador</a></p>
+        <p>
+          <a href="https://www.adslzone.net/esenciales/amazon/historia-amazon/">Historia Amazon</a>
+        </p>
+        <p><a href="https://www.aboutamazon.es/noticias/trabajar-en-amazon/seattle-y-arlington-las-dos-oficinas-centrales-de-amazon-en-estados-unidos#:~:text=HQ1%20en%20Seattle%20y%20HQ2,de%20Washington%20y%20Virginia%2C%20respectivamente.">Oficinas de Amazon en EEUU</a></p>
+        <p><a href="https://www.aboutamazon.es/que-hacemos/amazon-web-services">Web Services</a></p>
+        <p><a href="https://www.aboutamazon.es/que-hacemos/entretenimiento">Entretenimiento</a></p>
+        <p><a href="https://www.youtube.com/watch?v=ZO9bfiu1u6w">Amazon quiere despedir a sus empleados</a></p>
+      </div>
+
+      <div class="section">
+        <h2></h2>
+        <p><a href="https://www.aboutamazon.es/noticias/trabajar-en-amazon/seattle-y-arlington-las-dos-oficinas-centrales-de-amazon-en-estados-unidos#:~:text=HQ1%20en%20Seattle%20y%20HQ2,de%20Washington%20y%20Virginia%2C%20respectivamente.">Trabajar en Amazon</a></p>
+        <p>
+          <a href="https://www.amazon.jobs/en/locations/?&continent=all&cache">Locations</a>
+        </p>
+        <p><a href="https://www.aboutamazon.es/quienes-somos">Quienes somos</a></p>
+        <p>
+          <a href="https://www.aboutamazon.es/noticias/sostenibilidad/nueve-conclusiones-del-informe-de-sostenibilidad-2022-de-amazon">Sostenibilidad de Amazon</a>
+        </p>
+        <p><a href="https://aws.amazon.com/es/executive-insights/sustainability-esg/">Perspectivas ejecutivas</a></p>
+        <p><a href="https://www.lanacion.com.ar/economia/negocios/jeff-bezos-en-la-encrucijada-el-plan-de-amazon-para-enfrentar-su-crisis-de-crecimiento-nid11022023/?R=177d2c">Plan de Amazon</a></p>
+        <p><a href="https://www.xataka.com/empresas-y-economia/crisis-tecnologicas-resumida-amazon-oferto-25-000-puestos-2022-solo-contrato-a-7-800">Crisis tecnologica de Amazon</a></p>
+        <p><a href="https://www.perfil.com/noticias/gaming/crisis-en-amazon-y-despidos-masivos-en-twitch-peek.phtml">Crisis en Amazon</a></p>
+      </div>
+      
+    </div>
+    <!--
+    <div class="social-media">
+      <a href="https://twitter.com" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://linkedin.com" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    -->
+  </footer>
+  <!-- COPYRIGHT  -->
+  <footer>
+    <div class="container">
+      <p>&copy; ORGANIZACION EMPRESARIAL - PROFRESORA ANA DIAMANTE -  UTN</p>
+    </div>
+  </footer>
+  <script>
+    // Opcional: cerrar el menú al hacer clic fuera del mismo
+    document.addEventListener("click", function (event) {
+      const checkbox = document.getElementById("menu-toggle");
+      const menu = document.querySelector("nav");
+
+      if (
+        checkbox.checked &&
+        !menu.contains(event.target) &&
+        event.target.id !== "menu-toggle"
+      ) {
+        checkbox.checked = false;
+      }
+    });
+  </script>
+</body>
+
+</html>
